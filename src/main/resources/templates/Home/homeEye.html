@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="/LookAtMe/src/main/resources/static/css/common.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/LookAtMe/src/main/resources/static/css/Home.css"
+    />
+    <title>홈 화면 (눈)</title>
+  </head>
+  <body>
+    <div id="wrap">
+      <div id="header">
+        <div id="backIcon" onclick="back_Intro();">
+          <img
+            src="/LookAtMe/src/main/resources/static/img/icon/back.png"
+            width="25px"
+          />
+        </div>
+        <div class="ad">
+          <img
+            src="/LookAtMe/src/main/resources/static/img/ad1.jpg"
+            alt=""
+            id="changingImage"
+            width="100%"
+            height="215px"
+          />
+        </div>
+      </div>
+      <div id="main">
+        <div id="search">
+          <label
+            ><img
+              src="/LookAtMe/src/main/resources/static/img/icon/find.png"
+              width="20px"
+          /></label>
+          <input type="text" id="find" placeholder="시술명을 입력해주세요." />
+        </div>
+        <div id="menu">
+          <div id="menuIcon">
+            <div class="Icon" onclick="click_face();">
+              <img
+                src="/LookAtMe/src/main/resources/static/img/icon/face.png"
+                width="20px"
+              />
+            </div>
+            <div
+              class="Icon"
+              onclick="click_eye();"
+              style="background-color: #eaeaea"
+            >
+              <img
+                src="/LookAtMe/src/main/resources/static/img/icon/eye.png"
+                width="20px"
+              />
+            </div>
+            <div class="Icon" onclick="click_mouth();">
+              <img
+                src="/LookAtMe/src/main/resources/static/img/icon/mouth.png"
+                width="20px"
+              />
+            </div>
+            <div class="Icon" onclick="click_body();">
+              <img
+                src="/LookAtMe/src/main/resources/static/img/icon/body.png"
+                width="17px"
+              />
+            </div>
+          </div>
+          <div id="menuContent">
+            <div class="menu-contentBox">
+              <div class="menuName">쌍커풀</div>
+              <div class="menuName">앞트임</div>
+            </div>
+            <div class="menu-contentBox">
+              <div class="menuName">뒷트임</div>
+              <div class="menuName">무쌍</div>
+            </div>
+          </div>
+        </div>
+        <div id="ranking">
+          <div id="title">
+            <img src="/LookAtMe/src/main/resources/static/img/icon/ranking.png"
+            / width="30px">
+            <h4>랭킹</h4>
+          </div>
+          <div id="hospital">
+            <div class="hospitalBox">
+              <div class="hospitalImg">
+                <img
+                  src="/LookAtMe/src/main/resources/static/img/hospitalEx2.png"
+                  width="115px"
+                />
+              </div>
+              <div class="hospital-contentBox">
+                <div class="hospitalName">수진이네 완벽 쌍수</div>
+                <div class="hospitalSubject">과목</div>
+                <div class="doctorName">의사이름</div>
+                <div class="time">상담 가능 시간</div>
+                <br />
+
+                <div class="review">리뷰 103</div>
+              </div>
+            </div>
+            <div class="hospitalBox">
+              <div class="hospitalImg">
+                <img
+                  src="/LookAtMe/src/main/resources/static/img/hospitalEx2.png"
+                  width="115px"
+                />
+              </div>
+              <div class="hospital-contentBox">
+                <div class="hospitalName">원민이네 흐리멍텅</div>
+                <div class="hospitalSubject">과목</div>
+                <div class="doctorName">의사이름</div>
+                <div class="time">상담 가능 시간</div>
+                <br />
+                <div class="review">리뷰 103</div>
+              </div>
+            </div>
+            <div class="hospitalBox">
+              <div class="hospitalImg">
+                <img
+                  src="/LookAtMe/src/main/resources/static/img/hospitalEx2.png"
+                  width="115px"
+                />
+              </div>
+              <div class="hospital-contentBox">
+                <div class="hospitalName">예현이네 성형 맛집</div>
+                <div class="hospitalSubject">과목</div>
+                <div class="doctorName">의사이름</div>
+                <div class="time">상담 가능 시간</div>
+                <br />
+                <div class="review">리뷰 103</div>
+              </div>
+            </div>
+            <div class="hospitalBox">
+              <div class="hospitalImg">
+                <img
+                  src="/LookAtMe/src/main/resources/static/img/hospitalEx2.png"
+                  width="115px"
+                />
+              </div>
+              <div class="hospital-contentBox">
+                <div class="hospitalName">길호네 무쌍전문점</div>
+                <div class="hospitalSubject">과목</div>
+                <div class="doctorName">의사이름</div>
+                <div class="time">상담 가능 시간</div>
+                <br />
+                <div class="review">리뷰 103</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="footer">
+        <div>
+          <img src="/LookAtMe/src/main/resources/static/img/icon/home.png" /
+          width="30px">
+        </div>
+        <div>
+          <img src="/LookAtMe/src/main/resources/static/img/icon/chat.png" /
+          width="30px">
+        </div>
+        <div>
+          <img src="/LookAtMe/src/main/resources/static/img/icon/map.png" /
+          width="30px">
+        </div>
+        <div>
+          <img src="/LookAtMe/src/main/resources/static/img/icon/mall.png" /
+          width="30px">
+        </div>
+        <div>
+          <img src="/LookAtMe/src/main/resources/static/img/icon/my.png" /
+          width="30px">
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="/LookAtMe/src/main/resources/static/js/Home.js"></script>
+</html>

@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class LookAtMeApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(LookAtMeApplication.class, args);
+
 	}
 
 }

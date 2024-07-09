@@ -1,0 +1,57 @@
+#wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+}
+
+#header {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  font-size: 13px;
+}
+
+#kakao,
+#naver,
+#google {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  width: 175px;
+  height: 35px;
+  gap: 10px;
+}
+
+#kakao {
+  background-color: #ffeb02;
+}
+
+#naver {
+  background-color: #2db400;
+}
+
+#google {
+  border: 1px solid #f0f0f0;
+}
+
+#footer {
+  font-size: 11px;
+}
+
+#footer a:visited {
+  color: black;
+}

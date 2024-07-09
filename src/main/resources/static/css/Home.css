@@ -1,0 +1,155 @@
+#backIcon {
+  position: absolute;
+  padding: 10px;
+}
+
+.ad {
+  width: 100%;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#search {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 5px;
+  width: 70%;
+  padding: 3px 10px 3px 10px;
+  margin-top: 20px;
+}
+
+#find,
+#search {
+  background-color: #d2e9e9;
+}
+
+input::placeholder {
+  font-size: 9px;
+  color: black;
+}
+
+#menu {
+  width: 75%;
+}
+
+#menuContent {
+  background-color: #eaeaea;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-contentBox {
+  width: 80%;
+  display: inline-flex;
+  margin-left: 85px;
+  font-size: 12px;
+  gap: 90px;
+  /** 상, 우 , 하, 좌**/
+  padding: 15px 0px 15px 0px;
+  border: 1px solid cadetblues;
+}
+
+.menuName::before {
+  content: "-";
+  color: black;
+  margin-right: 5px;
+}
+
+#menuIcon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.Icon {
+  background-color: darkgray;
+  width: 45px;
+  height: 25px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#ranking {
+  width: 75%;
+}
+
+#title {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 5px;
+  margin: 20px 0px 10px 0px;
+}
+
+.hospitalBox {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+
+.hospital-contentBox {
+  margin-left: 20px;
+}
+
+.hospitalName {
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.hospitalSubject {
+  font-size: 11px;
+  font-weight: bold;
+  color: darkgray;
+  margin-bottom: 5px;
+}
+
+.doctorName,
+.time,
+.rode,
+.review {
+  font-size: 10px;
+  margin-bottom: 5px;
+}
+
+/* 스크롤 */
+#hospital {
+  max-height: 267px; /* 원하는 높이 설정 */
+  overflow-y: scroll; /* 세로 스크롤 활성화 */
+  -ms-overflow-style: none; /* 인터넷 익스플로러 및 엣지 */
+  scrollbar-width: none; /* 파이어폭스 */
+}
+
+#hospital::-webkit-scrollbar {
+  display: none; /* 크롬, 사파리, 오페라 */
+}
+
+#footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 65px;
+}
+
+#footer div:first-of-type {
+  filter: invert(86%) sepia(14%) saturate(278%) hue-rotate(124deg)
+    brightness(94%) contrast(91%);
+}

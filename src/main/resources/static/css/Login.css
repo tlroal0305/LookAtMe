@@ -1,0 +1,65 @@
+#wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#header {
+  width: 75%;
+  margin-top: 130px;
+}
+
+#main {
+  width: 75%;
+}
+
+#loginBox {
+  margin-top: 15px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+input {
+  width: 100%;
+  outline: none;
+  height: 30px;
+  border: 1px solid rgb(232, 232, 232);
+  background-color: #f5f2f2;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+input::placeholder {
+  color: gainsboro;
+  font-size: 11px;
+}
+
+#footer {
+  margin-top: 350px;
+  width: 75%;
+}
+
+#nextBtn {
+  background-color: #c4dfdf;
+  color: whitesmoke;
+  border: 0px solid #c4dfdf;
+  border-radius: 5px;
+  width: 100%;
+  height: 40px;
+  font-weight: bold;
+}
+
+#findBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+#findBox a {
+  font-size: 10px;
+  color: #c4dfdf;
+}

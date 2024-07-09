@@ -1,0 +1,71 @@
+#wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#header {
+  width: 75%;
+  margin-top: 130px;
+}
+
+#main {
+  width: 75%;
+}
+
+#joinBox {
+  margin-top: 15px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#joinBox div {
+  font-size: 10px;
+  margin: 5px 0px 15px 0px;
+  color: #bdd9d9;
+}
+
+input {
+  width: 100%;
+  outline: none;
+  height: 30px;
+  border: 1px solid rgb(232, 232, 232);
+  background-color: #f5f2f2;
+  border-radius: 5px;
+}
+
+input::placeholder {
+  color: gainsboro;
+  font-size: 11px;
+}
+
+#footer {
+  margin-top: 350px;
+  width: 75%;
+}
+
+#already {
+  font-size: 11px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#already a {
+  margin-left: 10px;
+}
+
+#already a:visited {
+  color: #c4dfdf;
+}
+
+#nextBtn {
+  background-color: #c4dfdf;
+  color: whitesmoke;
+  border: 0px solid #c4dfdf;
+  border-radius: 5px;
+  width: 100%;
+  height: 40px;
+  font-weight: bold;
+}
