@@ -147,6 +147,11 @@ input::placeholder {
   justify-content: center;
   align-items: center;
   gap: 65px;
+  border-top: 1px solid black;
+}
+
+#footer div {
+  margin-top: 2px;
 }
 
 #footer div:first-of-type {

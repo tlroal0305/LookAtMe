@@ -1,0 +1,133 @@
+#header_menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 15px 5px 15px;
+  background-color: #e3f4f4;
+}
+
+button {
+  border-style: none;
+  background-color: #e3f4f4;
+  width: 130px;
+  height: 210px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#select {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  margin: 135px 0px 195px 0px;
+}
+
+#footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 65px;
+  border-top: 1px solid black;
+}
+
+#footer div {
+  margin-top: 2px;
+}
+
+#footer div:nth-of-type(4) {
+  filter: invert(86%) sepia(14%) saturate(278%) hue-rotate(124deg)
+    brightness(94%) contrast(91%);
+}
+
+#itemMenuBox {
+  padding: 0px 5px 0px 5px;
+}
+
+/* 스크롤 좌우 메뉴 */
+/* 가로 스크롤 적용 */
+.scroll__wrap {
+  overflow-x: hidden; /* 가로 스크롤 활성화 */
+  white-space: nowrap; /* 요소들이 한 줄에 나란히 표시되도록 설정 */
+  font-size: 12px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+}
+.scroll__element {
+  margin-right: 10px;
+  flex-shrink: 0;
+  pointer-events: none; /* 마우스 이벤트 무시 */
+}
+
+hr {
+  height: 2px;
+  background-color: #f0f0f0;
+  border-style: none;
+}
+
+.itemBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  margin: 20px 0px 10px 0px;
+}
+
+.itemName2 {
+  font-size: 12px;
+  font-weight: bold;
+  margin: 5px 0px 10px 0px;
+}
+
+.itemContent {
+  font-size: 11px;
+}
+
+.itemImg img {
+  width: 150px;
+}
+
+/* 스크롤 */
+#itemMenuBox2 {
+  max-height: 440px; /* 원하는 높이 설정 */
+  overflow-y: scroll; /* 세로 스크롤 활성화 */
+  -ms-overflow-style: none; /* 인터넷 익스플로러 및 엣지 */
+  scrollbar-width: none; /* 파이어폭스 */
+}
+
+#itemMenuBox2::-webkit-scrollbar {
+  display: none; /* 크롬, 사파리, 오페라 */
+}
+
+.menu {
+  border: 1px solid #f0f0f0;
+  border-radius: 30px;
+  background-color: white;
+  width: 50px;
+  height: 20px;
+  font-size: 9px;
+  box-shadow: 0px 0px 10px rgb(197, 197, 197);
+}
+
+/* 스크롤 좌우 메뉴2 */
+/* 가로 스크롤 적용 */
+.scroll__wrap2 {
+  overflow-x: hidden; /* 가로 스크롤 활성화 */
+  white-space: nowrap; /* 요소들이 한 줄에 나란히 표시되도록 설정 */
+  font-size: 12px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+}
+.scroll__element2 {
+  margin-right: 10px;
+  flex-shrink: 0;
+  pointer-events: none; /* 마우스 이벤트 무시 */
+}

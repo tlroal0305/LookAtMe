@@ -1,4 +1,4 @@
-// < 로그인 창으로 이동 >
+// < 로그인 페이지 이동 >
 function back_Intro() {
   window.location.href = "/LookAtMe/src/main/resources/templates/Intro.html";
 }
@@ -25,23 +25,23 @@ document.getElementById("hospital").addEventListener("scroll", function () {
   console.log("스크롤 위치:", this.scrollTop);
 });
 
-// < 페이지 이동 함수 >
-// 얼굴
+// < 메인 페이지 이동 함수 >
+// face
 function click_face() {
   window.location.href =
     "/LookAtMe/src/main/resources/templates/Home/homeFace.html";
 }
-// 눈
+// eye
 function click_eye() {
   window.location.href =
     "/LookAtMe/src/main/resources/templates/Home/homeEye.html";
 }
-// 입술
+// mouth
 function click_mouth() {
   window.location.href =
     "/LookAtMe/src/main/resources/templates/Home/homeMouth.html";
 }
-// 몸
+// body
 function click_body() {
   window.location.href =
     "/LookAtMe/src/main/resources/templates/Home/homeBody.html";
