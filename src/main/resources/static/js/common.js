@@ -7,7 +7,7 @@ function click_befoer() {
 // home
 function click_home() {
   window.location.href =
-    "/LookAtMe/src/main/resources/templates/Home/homeFace.html";
+    "/LookAtMe/src/main/resources/templates/Home/homeEye.html";
 }
 
 // chat

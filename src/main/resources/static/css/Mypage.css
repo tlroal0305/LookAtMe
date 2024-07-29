@@ -1,0 +1,169 @@
+#header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 15px 5px 15px;
+}
+
+#logo {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+#profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  position: relative;
+}
+
+#profileImg {
+  width: 140px;
+}
+
+#profileImg img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+#carmera {
+  width: 40px;
+  height: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #3f75ff;
+  position: absolute;
+  transform: translate(130%, 104%);
+}
+
+#carmera img {
+  width: 30px;
+}
+
+#nickname {
+  background-color: #d2e9e9;
+  border-radius: 10px;
+  width: 100px;
+  height: 20px;
+  font-size: 11px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#reward {
+  border: 1px solid #bcf3f3;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  padding: 15px 0px 15px 0px;
+  margin-top: 25px;
+}
+
+#reward_header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 70%;
+  font-size: 12px;
+  gap: 42px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+#myReward {
+  background-color: #3f75ff;
+  width: 120px;
+  height: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 3px;
+}
+
+#rewardBtns {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#rewardBtns button {
+  border-style: none;
+  background-color: #d2e9e9;
+  color: white;
+  width: 120px;
+  height: 25px;
+  font-size: 11px;
+  border-radius: 3px;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+#listMenu {
+  width: 90%;
+  margin-top: 25px;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 23px;
+}
+
+.listImg {
+  width: 25px;
+}
+
+.listImg img {
+  width: 100%;
+}
+
+.listName {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 65px;
+  border-top: 1px solid black;
+  margin-top: 92px;
+}
+
+#footer div {
+  margin-top: 2px;
+}
+
+#footer div:last-of-type {
+  filter: invert(86%) sepia(14%) saturate(278%) hue-rotate(124deg)
+    brightness(94%) contrast(91%);
+}

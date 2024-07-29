@@ -4,20 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>리워드 시술/성형</title>
+    <link
+      rel="stylesheet"
+      href="/LookAtMe/src/main/resources/static/css/common.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/LookAtMe/src/main/resources/static/css/Reward.css"
+    />
   </head>
-  <link
-    rel="stylesheet"
-    href="/LookAtMe/src/main/resources/static/css/common.css"
-  />
-  <link
-    rel="stylesheet"
-    href="/LookAtMe/src/main/resources/static/css/Reward.css"
-  />
   <body>
     <div id="wrap">
       <div id="header">
         <div id="header_menu">
-          <div onclick="click_home();">
+          <div onclick="click_Home();">
             <img
               src="/LookAtMe/src/main/resources/static/img/icon/home.png"
               width="28px"
@@ -26,15 +26,16 @@
           <div onclick="click_befoer();">
             <img
               src="/LookAtMe/src/main/resources/static/img/icon/cancel.png"
-              width="28px
-            "
+              width="28px"
             />
           </div>
         </div>
       </div>
       <div id="ad">
-        <img src="/LookAtMe/src/main/resources/static/img/ad4.png" /
-        width="100%" >
+        <img
+          src="/LookAtMe/src/main/resources/static/img/ad4.png"
+          width="100%"
+        />
       </div>
       <div id="main">
         <div id="main_menu">
@@ -60,9 +61,129 @@
             <div class="scroll__element2">
               <button class="menu">눈</button>
             </div>
+            <div class="scroll__element2">
+              <button class="menu">눈</button>
+            </div>
+            <div class="scroll__element2">
+              <button class="menu">눈</button>
+            </div>
+          </div>
+        </div>
+        <div id="main_hospital">
+          <div class="hospitalBox">
+            <div class="hospital">
+              <div class="hospitalImg">
+                <img
+                  src="/LookAtMe/src/main/resources/static/img/hospitalEx1.png"
+                />
+              </div>
+              <div class="hospitalName">oo 성형외과</div>
+              <div class="hospitalContent">이달의 혜택!</div>
+            </div>
+            <div class="hospital">
+              <div class="hospitalImg">
+                <img
+                  src="/LookAtMe/src/main/resources/static/img/hospitalEx1.png"
+                />
+              </div>
+              <div class="hospitalName">oo 성형외과</div>
+              <div class="hospitalContent">이달의 혜택!</div>
+            </div>
+          </div>
+          <div class="hospitalBox">
+            <div class="hospital">
+              <div class="hospitalImg">
+                <img
+                  src="/LookAtMe/src/main/resources/static/img/hospitalEx1.png"
+                />
+              </div>
+              <div class="hospitalName">oo 성형외과</div>
+              <div class="hospitalContent">이달의 혜택!</div>
+            </div>
+            <div class="hospital">
+              <div class="hospitalImg">
+                <img
+                  src="/LookAtMe/src/main/resources/static/img/hospitalEx1.png"
+                />
+              </div>
+              <div class="hospitalName">oo 성형외과</div>
+              <div class="hospitalContent">이달의 혜택!</div>
+            </div>
+          </div>
+          <div class="hospitalBox">
+            <div class="hospital">
+              <div class="hospitalImg">
+                <img
+                  src="/LookAtMe/src/main/resources/static/img/hospitalEx1.png"
+                />
+              </div>
+              <div class="hospitalName">oo 성형외과</div>
+              <div class="hospitalContent">이달의 혜택!</div>
+            </div>
+            <div class="hospital">
+              <div class="hospitalImg">
+                <img
+                  src="/LookAtMe/src/main/resources/static/img/hospitalEx1.png"
+                />
+              </div>
+              <div class="hospitalName">oo 성형외과</div>
+              <div class="hospitalContent">이달의 혜택!</div>
+            </div>
+          </div>
+          <div class="hospitalBox">
+            <div class="hospital">
+              <div class="hospitalImg">
+                <img
+                  src="/LookAtMe/src/main/resources/static/img/hospitalEx1.png"
+                />
+              </div>
+              <div class="hospitalName">oo 성형외과</div>
+              <div class="hospitalContent">이달의 혜택!</div>
+            </div>
+            <div class="hospital">
+              <div class="hospitalImg">
+                <img
+                  src="/LookAtMe/src/main/resources/static/img/hospitalEx1.png"
+                />
+              </div>
+              <div class="hospitalName">oo 성형외과</div>
+              <div class="hospitalContent">이달의 혜택!</div>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </body>
+  <script src="/LookAtMe/src/main/resources/static/js/common.js"></script>
+  <script src="/LookAtMe/src/main/resources/static/js/Reward.js"></script>
+  <script>
+    // < 스크롤 좌우 메뉴 2 >
+    // < 스크롤 좌우 메뉴 2 >
+    const scrollWrap2 = document.getElementById("scrollWrap2");
+    let isDown2 = false;
+    let startX2;
+    let scrollLeft2;
+
+    scrollWrap2.addEventListener("mousedown", (e) => {
+      isDown2 = true;
+      startX2 = e.pageX - scrollWrap2.offsetLeft;
+      scrollLeft2 = scrollWrap2.scrollLeft;
+    });
+
+    scrollWrap2.addEventListener("mouseleave", () => {
+      isDown2 = false;
+    });
+
+    scrollWrap2.addEventListener("mouseup", () => {
+      isDown2 = false;
+    });
+
+    scrollWrap2.addEventListener("mousemove", (e) => {
+      if (!isDown2) return;
+      e.preventDefault();
+      const x2 = e.pageX - scrollWrap2.offsetLeft;
+      const walk2 = (x2 - startX2) * 2; // 스크롤 속도 조절을 위한 계수 (2)
+      scrollWrap2.scrollLeft = scrollLeft2 - walk2;
+    });
+  </script>
 </html>

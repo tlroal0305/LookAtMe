@@ -4,18 +4,19 @@
 
 /* 폰트 설정 */
 @font-face {
-  font-family: "SUITE-Regular";
-  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Regular.woff2")
-    format("woff2");
-  font-weight: 400;
+  font-family: "GimpoGothicRegular00";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/GimpoGothicRegular00.woff")
+    format("woff");
+  font-weight: normal;
   font-style: normal;
 }
-
 #wrap {
   width: 450px;
   height: 767px;
-  border: 1px solid #f0f0f0;
-  font-family: "SUITE-Regular";
+  border: 7px solid black;
+  border-radius: 30px;
+  font-family: "GimpoGothicRegular00";
+  margin-left: 10px;
 }
 
 /* a style none*/

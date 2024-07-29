@@ -125,9 +125,49 @@ hr {
   display: flex;
   align-items: center;
   padding: 10px 0;
+  padding-left: 15px;
 }
 .scroll__element2 {
   margin-right: 10px;
   flex-shrink: 0;
-  pointer-events: none; /* 마우스 이벤트 무시 */
+}
+
+.hospitalBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px 10px 0px;
+  gap: 60px;
+}
+
+.hospital {
+  text-align: center;
+}
+
+.hospitalImg img {
+  width: 130px;
+  border-radius: 5px;
+}
+
+.hospitalName {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.hospitalContent {
+  font-size: 10px;
+  margin-top: 3px;
+}
+
+/* 스크롤 */
+#main_hospital {
+  max-height: 510px; /* 원하는 높이 설정 */
+  overflow-y: scroll; /* 세로 스크롤 활성화 */
+  -ms-overflow-style: none; /* 인터넷 익스플로러 및 엣지 */
+  scrollbar-width: none; /* 파이어폭스 */
+}
+
+#main_hospital::-webkit-scrollbar {
+  display: none; /* 크롬, 사파리, 오페라 */
 }

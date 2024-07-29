@@ -2,11 +2,17 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: linear-gradient(to bottom, white 60%, #f0dbdb 80%, #dba39a 100%);
+}
+
+#Img {
+  margin-top: 60px;
 }
 
 #header {
   width: 75%;
-  margin-top: 130px;
+  margin-top: 60px;
+  font-weight: bold;
 }
 
 #main {
@@ -37,18 +43,19 @@ input::placeholder {
 }
 
 #footer {
-  margin-top: 350px;
+  margin-top: 210px;
   width: 75%;
 }
 
 #nextBtn {
-  background-color: #c4dfdf;
+  background-color: #dba39a;
   color: whitesmoke;
-  border: 0px solid #c4dfdf;
+  border: 0px solid #dba39a;
   border-radius: 5px;
   width: 100%;
   height: 40px;
   font-weight: bold;
+  font-size: 13px;
 }
 
 #findBox {
@@ -61,5 +68,5 @@ input::placeholder {
 
 #findBox a {
   font-size: 10px;
-  color: #c4dfdf;
+  color: #dba39a;
 }

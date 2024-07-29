@@ -3,12 +3,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 150px;
-}
-
-#header {
-  font-weight: bold;
-  font-size: 30px;
+  gap: 140px;
+  background: linear-gradient(to bottom, white 60%, #f0dbdb 80%, #dba39a 100%);
 }
 
 a {
@@ -20,19 +16,19 @@ a {
   display: flex;
   flex-direction: column;
   gap: 20px;
-
-  font-size: 13px;
+  font-size: 11px;
 }
 
 #kakao,
 #naver,
 #google {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   border-radius: 5px;
   width: 175px;
-  height: 35px;
+  height: 40px;
   gap: 10px;
 }
 
@@ -45,13 +41,14 @@ a {
 }
 
 #google {
-  border: 1px solid #f0f0f0;
+  background-color: white;
 }
 
 #footer {
   font-size: 11px;
+  font-weight: bold;
 }
 
 #footer a:visited {
-  color: black;
+  color: whitesmoke;
 }
