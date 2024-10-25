@@ -12,7 +12,8 @@ function click_home() {
 
 // chat
 function click_chat() {
-  window.location.href;
+  window.location.href =
+    "/LookAtMe/src/main/resources/templates/Community.html";
 }
 
 // map
@@ -28,5 +29,5 @@ function click_mall() {
 
 // my
 function click_my() {
-  window.location.href = "";
+  window.location.href = "/LookAtMe/src/main/resources/templates/Mypage.html";
 }

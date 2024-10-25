@@ -16,97 +16,71 @@
   <body>
     <div id="wrap">
       <div id="header">
-        <div id="logo">룩앤美</div>
-        <div id="setting">
-          <img
-            src="/LookAtMe/src/main/resources/static/img/icon/setting.png"
-            width="27px"
-          />
+        <div id="back">
+          <img src="/LookAtMe/src/main/resources/static/img/icon/before.png" />
         </div>
+        <div id="title">마이페이지</div>
       </div>
       <div id="main">
         <div id="profile">
-          <div id="profileImg">
-            <img
-              src="/LookAtMe/src/main/resources/static/img/hospitalEx3.png"
-            />
+          <div id="userImg">
+            <img src="/LookAtMe/src/main/resources/static/img/review3.png" />
           </div>
-          <div id="carmera">
-            <img
-              src="/LookAtMe/src/main/resources/static/img/icon/camera.png"
-            />
-          </div>
-          <div id="nickname">Nickname</div>
+          <div id="userName">민817</div>
         </div>
-        <div id="reward">
-          <div id="reward_header">
-            <div>
+        <div id="menu">
+          <div class="menuItem">
+            <div class="menuImg">
               <img
-                src="/LookAtMe/src/main/resources/static/img/icon/star.png"
-                width="25px"
+                src="/LookAtMe/src/main/resources/static/img/icon/list1.png "
               />
             </div>
-            <div>나의 리워드</div>
-            <div id="myReward">250,000</div>
+            <div id="menuName">상담내역</div>
           </div>
-          <div id="rewardBtns">
-            <button>+ 무료 리워드</button>
-            <button>사용하기</button>
-          </div>
-        </div>
-        <div id="listMenu">
-          <div class="list">
-            <div class="listImg">
+          <div class="menuItem">
+            <div class="menuImg">
               <img
-                src="/LookAtMe/src/main/resources/static/img/icon/list1.png"
+                src="/LookAtMe/src/main/resources/static/img/icon/list2.png "
               />
             </div>
-            <div class="listName">상담 내역</div>
+            <div id="menuName">수술 및 시술내역</div>
           </div>
-          <div class="list">
-            <div class="listImg">
-              <img
-                src="/LookAtMe/src/main/resources/static/img/icon/list2.png"
-              />
-            </div>
-            <div class="listName">수술 및 시술 내역</div>
-          </div>
-          <div class="list">
-            <div class="listImg">
+          <div class="menuItem">
+            <div class="menuImg">
               <img
                 src="/LookAtMe/src/main/resources/static/img/icon/chat.png"
               />
             </div>
-            <div class="listName">커뮤니티 활동 내역</div>
+            <div id="menuName">커뮤니티 활동내역</div>
           </div>
-          <div class="list">
-            <div class="listImg">
+          <div class="menuItem">
+            <div class="menuImg">
               <img
                 src="/LookAtMe/src/main/resources/static/img/icon/info.png"
               />
             </div>
-            <div class="listName">개인정보</div>
+            <div id="menuName">개인정보</div>
           </div>
-          <div class="list">
-            <div class="listImg">
+          <div class="menuItem">
+            <div class="menuImg">
               <img
-                src="/LookAtMe/src/main/resources/static/img/icon/notice.png"
+                src="/LookAtMe/src/main/resources/static/img/icon/notice.png "
               />
             </div>
-            <div class="listName">공지사항</div>
+            <div id="menuName">공지사항</div>
           </div>
         </div>
       </div>
       <div id="footer">
-        <div>
+        <div onclick="click_home();">
           <img src="/LookAtMe/src/main/resources/static/img/icon/home.png" /
           width="30px">
         </div>
-        <div>
+        <div onclick="click_chat();">
           <img src="/LookAtMe/src/main/resources/static/img/icon/chat.png" /
           width="30px">
         </div>
-        <div>
+        <div onclick="click_map();">
           <img src="/LookAtMe/src/main/resources/static/img/icon/map.png" /
           width="30px">
         </div>
@@ -114,12 +88,12 @@
           <img src="/LookAtMe/src/main/resources/static/img/icon/mall.png" /
           width="30px">
         </div>
-        <div>
+        <div onclick="click_my();">
           <img src="/LookAtMe/src/main/resources/static/img/icon/my.png" /
           width="30px">
         </div>
       </div>
-      </div>
     </div>
   </body>
+  <script src="/LookAtMe/src/main/resources/static/js/common.js"></script>
 </html>
